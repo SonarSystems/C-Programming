@@ -3,12 +3,12 @@
 
 int main( )
 {
-   FILE *fp;
+   FILE *file;
 
-   fp = fopen( "file.txt", "w+" );
-   fprintf( fp, "Hello" );
+   file = fopen( "file.txt", "w+" );
+   fprintf( file, "Hello" );
    
-   fclose( fp );
+   fclose( file );
    
    return 0;
 }
